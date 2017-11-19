@@ -25,7 +25,7 @@ Wargames.my welcomes any contribution to the prize-pot or if you have other spec
 **Not Available**
 - All except above
 
-![image](score.png)
+![image](https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/score.PNG)
 
 
 This Writeup is brought to you by Alejnd Alliance <img src="https://github.com/najashark/KICTM-2017-CTF-Writeup/blob/master/logo.png?raw=true" width="40">
