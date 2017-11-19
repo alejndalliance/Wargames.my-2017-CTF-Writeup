@@ -14,17 +14,17 @@
 
 By opening the URL it shows some old-skool designed website. Nothing interesting much.
 
-![image](https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/Challenge%202%20-%20Unreachable/site1.png)
+![image]((https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/Challenge%201%20-%20I%20open%20at%20the%20close/site1.png)
 
 Except in the source code, where you can see this here:
 
-![image](https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/Challenge%202%20-%20Unreachable/site2.png)
+![image]((https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/Challenge%201%20-%20I%20open%20at%20the%20close/site2.png)
 
 Well, we have an image file here! Let's try to download it shell we?
 
 Then we hit another roadblock...
 
-![image](https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/Challenge%202%20-%20Unreachable/site3.png)
+![image]((https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/Challenge%201%20-%20I%20open%20at%20the%20close/site3.png)
 
 No matter how fast your internet is, the download speed is limited to <= 1kbps. Hmm
 
@@ -32,7 +32,7 @@ Let us do some math, let's say the download speed is 1kbps, it will take approxi
 
 So, what can we do? Well let us try to look inside partially downloaded images.img.
 
-![image](https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/Challenge%202%20-%20Unreachable/site4.png)
+![image]((https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/Challenge%201%20-%20I%20open%20at%20the%20close/site4.png)
 
 Hmm all zero bytes only.
 
@@ -64,13 +64,13 @@ We know that initial position of images.img contains no data.
 
 Let's try to peek at the middle?
 
-![image](https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/Challenge%202%20-%20Unreachable/site5.png)
+![image]((https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/Challenge%201%20-%20I%20open%20at%20the%20close/site5.png)
 
 Hmm, still zero bytes.
 
 Peek at the back of file?
 
-![image](https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/Challenge%202%20-%20Unreachable/site6.png)
+![image]((https://raw.githubusercontent.com/alejndalliance/Wargames.my-2017-CTF-Writeup/master/Challenge%201%20-%20I%20open%20at%20the%20close/site6.png)
 
 We found some data!
 
