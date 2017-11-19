@@ -60,6 +60,12 @@ data = req.read().decode('utf-8')
 print("Data : " + " ".join("{:02x}".format(ord(c)) for c in data))
 ```
 
+or you can use wget with --start-pos paramater
+
+```bash
+wget --start-pos 1073741800 http://1511.wargames.my/images.img
+```
+
 We know that initial position of images.img contains no data.
 
 Let's try to peek at the middle?
