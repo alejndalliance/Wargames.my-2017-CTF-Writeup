@@ -17,6 +17,7 @@ Wargames.my welcomes any contribution to the prize-pot or if you have other spec
 
 **Available Writeup**
 
+- Challenge 1 - I open at the close
 - Challenge 2 - Unreachable
 - Challenge 8 - Ran$0m-n00b-w4r3
 - Challenge 12 - ezFile Sharing
